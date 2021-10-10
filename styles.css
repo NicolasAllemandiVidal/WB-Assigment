@@ -74,6 +74,7 @@ img{
 }
 .header__logo{
     width: 45rem;
+    max-width: 95%;
     padding: 1rem;
 }
 .header__navbar{
@@ -163,6 +164,9 @@ video{
      .header__text{
          display: none;
      }
+     .header__logo{
+         padding: .5rem;
+     }
 }
 
 
@@ -245,6 +249,11 @@ video{
         margin: 0 auto;
     }
 }
+ @media (max-width:480px ) {
+     .main__mid{
+         padding: 2rem;
+     }
+}
 
 /* section work */
 .work{
@@ -291,9 +300,6 @@ video{
     justify-content: space-around;
     align-items: center;
 }
-.social{ 
-    align-items: center;
-}
 
 /* mq footer */
 @media (max-width: 768px) {
@@ -314,3 +320,15 @@ video{
          margin-left: 3rem;
      }
 }
+ @media (max-width: 300px) {
+    .footer__icons{
+        margin-left: 0;
+    }
+    .line{
+       margin-left: 0;
+    }
+    .luxury{
+        margin-left: 0;
+    }
+}
+
